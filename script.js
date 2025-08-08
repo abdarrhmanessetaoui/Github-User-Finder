@@ -33,13 +33,7 @@ async function searchUser() {
     profileContainer.classList.add("hidden");
     errorContainer.classList.add("hidden");
 
-    const token = "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";
-    const response = await fetch(`https://api.github.com/users/${username}`, {
-      headers: {
-        Authorization: `token ${token}`
-      }
-    });
-    
+    const response = await fetch(`https://api.github.com/users/${username}`);
     if (!response.ok) throw new Error("User not found");
 
     const userData = await response.json();
