@@ -1,6 +1,6 @@
 # GitHub User Finder
 
-![GitHub User Finder Preview](https://raw.githubusercontent.com/abdarrhmanessetaoui/Github-User-Finder/main/screenshot.png)
+![GitHub User Finder Preview](https://raw.githubusercontent.com/abdarrhmanessetaoui/Github-User-Finder/main/pov.PNG)
 
 Simple web app to search GitHub users and view their profile information and repositories.
 
